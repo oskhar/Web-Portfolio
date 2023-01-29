@@ -1,4 +1,6 @@
 # Web-Portfolio-V1
 Web portfolio sederhana
-> Dokumentasi belum diupload
-> Pengorganisaian file belum dilakukan
+<br/>
+> **Note**: Dokumentasi belum diupload
+-
+> **Note**: Pengorganisaian file belum dilakukan
