@@ -1,9 +1,9 @@
 <?php
-// if (!isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'on') {
-//     header("Location: https://moskhar.my.id/portfolio");
-// }
 
-$conn = mysqli_connect("localhost", "moskharm_user", "g8N7a6O5d4S3e2T1", "moskharm_oskhar");
+$str = file_get_contents('http://example.com/example.json/');
+$json = json_decode($str, true);
+$serverConfig = $json['server'];
+$conn = mysqli_connect($serverConfig['url'], $serverConfig['hostname'], $serverConfig['password'], $serverConfig['dbname']);
 // g8N7a6O5d4S3e2T1
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

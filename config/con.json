@@ -1,3 +1,8 @@
 {
-    "server": {}
+    "server": {
+        "url": "localhost",
+        "dbname": "portfolioA",
+        "hostname": "root",
+        "password": "tesdoang"
+    }
 }
