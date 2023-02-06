@@ -41,7 +41,7 @@ body{
     width: 230px;
     left: 20px;
     top: 20px;
-    background: url("Pfoto1.webp");
+    background: url("../../lib/img/Pfoto1.webp");
     background-position: top;
     background-size: cover;
     position: absolute;
@@ -292,7 +292,7 @@ body{
     height: 100%;
     width: 100%;
     position: absolute;
-    background: url('Pfoto2.webp');
+    background: url('../../lib/img/Pfoto2.webp');
     background-size: 100% 100%;
     left: -30px;
     top: -20px;
@@ -465,7 +465,7 @@ body{
     */
 }
 #tombol #tombol1{
-    background: url('back6.webp');
+    background: url('../../lib/img/back6.webp');
     background-size: cover;
     left: 100%;
     animation: keKanan 0s forwards;
@@ -538,7 +538,7 @@ body{
     top: 420px;
 }
 #tombol #tombol2, #tombol #tombol4{
-    background: url('back2.webp');
+    background: url('../../lib/img/back2.webp');
     background-size: cover;
     left: 100%;
     /*animation: keKanan 3s forwards;
@@ -581,21 +581,21 @@ body{
     border-color:#1c1c25;
 }
 #tombol #tombol3{
-    background: url('back1.webp');
+    background: url('../../lib/img/back1.webp');
     background-size: cover;
     left: 100%;
     /*animation: keluarKanan 0s forwards;
     */
 }
 #tombol #tombol4{
-    background: url('back2.webp');
+    background: url('../../lib/img/back2.webp');
     background-size: cover;
     left: 100%;
     /*animation: keluarKanan 0s forwards;
     */
 }
 #tombol #tombol5{
-    background: url('back4.webp');
+    background: url('../../lib/img/back4.webp');
     background-size: cover;
     z-index: 60;
     left: 100%;
@@ -604,7 +604,7 @@ body{
     animation: keluarKanan 0s forwards;
 }
 #tombol #tombol6{
-    background: url('back2.webp');
+    background: url('../../lib/img/back2.webp');
     background-size: cover;
     z-index: 60;
     left: 100%;
@@ -870,7 +870,7 @@ position: relative;}
 #kanan,#kiri{font-size: 70px;top: 200px;}
 #tombol4 #btnTombol1{left: 10%;}
 #tombol4 #btnTombol1,#tombol3 #btnTombol1{top: 500px;}
-#tombol #tombol2, #tombol #tombol4{background: url('back2.webp');background-size: cover;left: 100%;}
+#tombol #tombol2, #tombol #tombol4{background: url('../../lib/img/back2.webp');background-size: cover;left: 100%;}
 #tombol2 h2, #tombol4 h2{margin-left: 10%;margin-top: 300px;line-height: 30px;}
 #tombol2 p, #tombol4 p{margin-left: 10%;}
 #tombol2 h3, #tombol4 h3{right: 0;left: 10%;font-family: sans-serif;}
@@ -889,7 +889,7 @@ position: relative;}
     bottom: 50px;
     right: 30px;
     position: fixed;
-    background: url(komen.webp);
+    background: url("../../lib/img/komen.webp");
     background-size: auto;
     z-index: 109;
     border: none;
